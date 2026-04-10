@@ -1,0 +1,753 @@
+{
+  "tic_id": "96246348",
+  "analyzed_at": "2026-04-10T09:33:46.562363",
+  "contributor": "marc",
+  "exonit_version": "0.1.0",
+  "n_candidates": 5,
+  "candidates": [
+    {
+      "candidate_num": 1,
+      "period_days": 1.4109,
+      "t0": 2201.8345,
+      "duration_days": 0.2116,
+      "depth_ppm": 4123.9,
+      "snr": 25.1,
+      "bls_power": 0.1762,
+      "n_transits_expected": 557
+    },
+    {
+      "candidate_num": 2,
+      "period_days": 1.4109,
+      "t0": 2202.0461,
+      "duration_days": 0.0988,
+      "depth_ppm": 2423.4,
+      "snr": 28.8,
+      "bls_power": 0.0321,
+      "n_transits_expected": 557
+    },
+    {
+      "candidate_num": 3,
+      "period_days": 1.4109,
+      "t0": 2202.554,
+      "duration_days": 0.2116,
+      "depth_ppm": 1428.4,
+      "snr": 27.7,
+      "bls_power": 0.0218,
+      "n_transits_expected": 557
+    },
+    {
+      "candidate_num": 4,
+      "period_days": 1.4109,
+      "t0": 2201.9615,
+      "duration_days": 0.2116,
+      "depth_ppm": 517.4,
+      "snr": 15.0,
+      "bls_power": 0.0028,
+      "n_transits_expected": 557
+    },
+    {
+      "candidate_num": 5,
+      "period_days": 1.4059,
+      "t0": 2202.5301,
+      "duration_days": 0.2109,
+      "depth_ppm": 504.2,
+      "snr": 15.2,
+      "bls_power": 0.0027,
+      "n_transits_expected": 559
+    }
+  ],
+  "completeness": {
+    "radius_grid": [
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      3.0,
+      4.0,
+      6.0,
+      8.0,
+      10.0
+    ],
+    "period_grid": [
+      0.5,
+      1.0,
+      2.0,
+      5.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0
+    ],
+    "completeness_map": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "details": [
+      {
+        "radius_earth": 0.5,
+        "period_days": 0.5,
+        "depth_ppm": 20.976399999999998,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 0.5,
+        "period_days": 1.0,
+        "depth_ppm": 20.976399999999998,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 0.5,
+        "period_days": 2.0,
+        "depth_ppm": 20.976399999999998,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 0.5,
+        "period_days": 5.0,
+        "depth_ppm": 20.976399999999998,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 0.5,
+        "period_days": 10.0,
+        "depth_ppm": 20.976399999999998,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 0.5,
+        "period_days": 20.0,
+        "depth_ppm": 20.976399999999998,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 0.5,
+        "period_days": 30.0,
+        "depth_ppm": 20.976399999999998,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 0.5,
+        "period_days": 40.0,
+        "depth_ppm": 20.976399999999998,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 1.0,
+        "period_days": 0.5,
+        "depth_ppm": 83.90559999999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 1.0,
+        "period_days": 1.0,
+        "depth_ppm": 83.90559999999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 1.0,
+        "period_days": 2.0,
+        "depth_ppm": 83.90559999999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 1.0,
+        "period_days": 5.0,
+        "depth_ppm": 83.90559999999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 1.0,
+        "period_days": 10.0,
+        "depth_ppm": 83.90559999999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 1.0,
+        "period_days": 20.0,
+        "depth_ppm": 83.90559999999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 1.0,
+        "period_days": 30.0,
+        "depth_ppm": 83.90559999999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 1.0,
+        "period_days": 40.0,
+        "depth_ppm": 83.90559999999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 1.5,
+        "period_days": 0.5,
+        "depth_ppm": 188.78759999999994,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 1.5,
+        "period_days": 1.0,
+        "depth_ppm": 188.78759999999994,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 1.5,
+        "period_days": 2.0,
+        "depth_ppm": 188.78759999999994,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 1.5,
+        "period_days": 5.0,
+        "depth_ppm": 188.78759999999994,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 1.5,
+        "period_days": 10.0,
+        "depth_ppm": 188.78759999999994,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 1.5,
+        "period_days": 20.0,
+        "depth_ppm": 188.78759999999994,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 1.5,
+        "period_days": 30.0,
+        "depth_ppm": 188.78759999999994,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 1.5,
+        "period_days": 40.0,
+        "depth_ppm": 188.78759999999994,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 2.0,
+        "period_days": 0.5,
+        "depth_ppm": 335.62239999999997,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 2.0,
+        "period_days": 1.0,
+        "depth_ppm": 335.62239999999997,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 2.0,
+        "period_days": 2.0,
+        "depth_ppm": 335.62239999999997,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 2.0,
+        "period_days": 5.0,
+        "depth_ppm": 335.62239999999997,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 2.0,
+        "period_days": 10.0,
+        "depth_ppm": 335.62239999999997,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 2.0,
+        "period_days": 20.0,
+        "depth_ppm": 335.62239999999997,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 2.0,
+        "period_days": 30.0,
+        "depth_ppm": 335.62239999999997,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 2.0,
+        "period_days": 40.0,
+        "depth_ppm": 335.62239999999997,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 3.0,
+        "period_days": 0.5,
+        "depth_ppm": 755.1503999999998,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 3.0,
+        "period_days": 1.0,
+        "depth_ppm": 755.1503999999998,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 3.0,
+        "period_days": 2.0,
+        "depth_ppm": 755.1503999999998,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 3.0,
+        "period_days": 5.0,
+        "depth_ppm": 755.1503999999998,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 3.0,
+        "period_days": 10.0,
+        "depth_ppm": 755.1503999999998,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 3.0,
+        "period_days": 20.0,
+        "depth_ppm": 755.1503999999998,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 3.0,
+        "period_days": 30.0,
+        "depth_ppm": 755.1503999999998,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 3.0,
+        "period_days": 40.0,
+        "depth_ppm": 755.1503999999998,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 4.0,
+        "period_days": 0.5,
+        "depth_ppm": 1342.4895999999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 4.0,
+        "period_days": 1.0,
+        "depth_ppm": 1342.4895999999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 4.0,
+        "period_days": 2.0,
+        "depth_ppm": 1342.4895999999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 4.0,
+        "period_days": 5.0,
+        "depth_ppm": 1342.4895999999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 4.0,
+        "period_days": 10.0,
+        "depth_ppm": 1342.4895999999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 4.0,
+        "period_days": 20.0,
+        "depth_ppm": 1342.4895999999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 4.0,
+        "period_days": 30.0,
+        "depth_ppm": 1342.4895999999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 4.0,
+        "period_days": 40.0,
+        "depth_ppm": 1342.4895999999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 6.0,
+        "period_days": 0.5,
+        "depth_ppm": 3020.601599999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 6.0,
+        "period_days": 1.0,
+        "depth_ppm": 3020.601599999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 6.0,
+        "period_days": 2.0,
+        "depth_ppm": 3020.601599999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 6.0,
+        "period_days": 5.0,
+        "depth_ppm": 3020.601599999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 6.0,
+        "period_days": 10.0,
+        "depth_ppm": 3020.601599999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 6.0,
+        "period_days": 20.0,
+        "depth_ppm": 3020.601599999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 6.0,
+        "period_days": 30.0,
+        "depth_ppm": 3020.601599999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 6.0,
+        "period_days": 40.0,
+        "depth_ppm": 3020.601599999999,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 8.0,
+        "period_days": 0.5,
+        "depth_ppm": 5369.9583999999995,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 8.0,
+        "period_days": 1.0,
+        "depth_ppm": 5369.9583999999995,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 8.0,
+        "period_days": 2.0,
+        "depth_ppm": 5369.9583999999995,
+        "detection_prob": 1.0,
+        "n_recovered": 3,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 8.0,
+        "period_days": 5.0,
+        "depth_ppm": 5369.9583999999995,
+        "detection_prob": 1.0,
+        "n_recovered": 3,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 8.0,
+        "period_days": 10.0,
+        "depth_ppm": 5369.9583999999995,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 8.0,
+        "period_days": 20.0,
+        "depth_ppm": 5369.9583999999995,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 8.0,
+        "period_days": 30.0,
+        "depth_ppm": 5369.9583999999995,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 8.0,
+        "period_days": 40.0,
+        "depth_ppm": 5369.9583999999995,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 10.0,
+        "period_days": 0.5,
+        "depth_ppm": 8390.56,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 10.0,
+        "period_days": 1.0,
+        "depth_ppm": 8390.56,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 10.0,
+        "period_days": 2.0,
+        "depth_ppm": 8390.56,
+        "detection_prob": 1.0,
+        "n_recovered": 3,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 10.0,
+        "period_days": 5.0,
+        "depth_ppm": 8390.56,
+        "detection_prob": 1.0,
+        "n_recovered": 3,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 10.0,
+        "period_days": 10.0,
+        "depth_ppm": 8390.56,
+        "detection_prob": 1.0,
+        "n_recovered": 3,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 10.0,
+        "period_days": 20.0,
+        "depth_ppm": 8390.56,
+        "detection_prob": 1.0,
+        "n_recovered": 3,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 10.0,
+        "period_days": 30.0,
+        "depth_ppm": 8390.56,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      },
+      {
+        "radius_earth": 10.0,
+        "period_days": 40.0,
+        "depth_ppm": 8390.56,
+        "detection_prob": 0.0,
+        "n_recovered": 0,
+        "n_injected": 3
+      }
+    ],
+    "stellar_radius": 1.0
+  }
+}
