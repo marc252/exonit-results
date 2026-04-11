@@ -1,0 +1,60 @@
+{
+  "tic_id": "407394748",
+  "analyzed_at": "2026-04-11T12:02:17.608476",
+  "contributor": "marc",
+  "exonit_version": "0.1.0",
+  "n_candidates": 5,
+  "candidates": [
+    {
+      "candidate_num": 1,
+      "period_days": 1.8806,
+      "t0": 2719.0747,
+      "duration_days": 0.0564,
+      "depth_ppm": 354.8,
+      "snr": 12.5,
+      "bls_power": 0.0003,
+      "n_transits_expected": 404
+    },
+    {
+      "candidate_num": 2,
+      "period_days": 1.8809,
+      "t0": 2719.3757,
+      "duration_days": 0.094,
+      "depth_ppm": 212.1,
+      "snr": 7.7,
+      "bls_power": 0.0002,
+      "n_transits_expected": 404
+    },
+    {
+      "candidate_num": 3,
+      "period_days": 1.8805,
+      "t0": 2720.203,
+      "duration_days": 0.094,
+      "depth_ppm": 207.4,
+      "snr": 9.1,
+      "bls_power": 0.0002,
+      "n_transits_expected": 404
+    },
+    {
+      "candidate_num": 4,
+      "period_days": 1.8809,
+      "t0": 2720.5042,
+      "duration_days": 0.094,
+      "depth_ppm": 208.9,
+      "snr": 11.3,
+      "bls_power": 0.0002,
+      "n_transits_expected": 404
+    },
+    {
+      "candidate_num": 5,
+      "period_days": 1.8805,
+      "t0": 2719.8269,
+      "duration_days": 0.094,
+      "depth_ppm": 183.9,
+      "snr": 11.2,
+      "bls_power": 0.0002,
+      "n_transits_expected": 404
+    }
+  ],
+  "completeness": null
+}
