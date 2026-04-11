@@ -1,0 +1,76 @@
+{
+  "tic_id": "299023386",
+  "analyzed_at": "2026-04-11T20:31:18.950816",
+  "contributor": "marc",
+  "exonit_version": "0.1.0",
+  "n_candidates": 4,
+  "candidates": [
+    {
+      "candidate_num": 1,
+      "period_days": 1.8464,
+      "t0": 2990.4608,
+      "duration_days": 0.277,
+      "depth_ppm": 2520.9,
+      "snr": 24.0,
+      "bls_power": 0.0863,
+      "n_transits_expected": -355
+    },
+    {
+      "candidate_num": 2,
+      "period_days": 1.8464,
+      "t0": 2990.7378,
+      "duration_days": 0.277,
+      "depth_ppm": 2116.0,
+      "snr": 42.8,
+      "bls_power": 0.061,
+      "n_transits_expected": -355
+    },
+    {
+      "candidate_num": 3,
+      "period_days": 0.9221,
+      "t0": 2989.1774,
+      "duration_days": 0.1383,
+      "depth_ppm": 819.3,
+      "snr": 9.0,
+      "bls_power": 0.009,
+      "n_transits_expected": -712
+    },
+    {
+      "candidate_num": 4,
+      "period_days": 7.3856,
+      "t0": 2995.5199,
+      "duration_days": 1.1078,
+      "depth_ppm": 773.4,
+      "snr": 13.5,
+      "bls_power": 0.0089,
+      "n_transits_expected": -88
+    }
+  ],
+  "completeness": {
+    "radius_grid": [
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      3.0,
+      4.0,
+      6.0,
+      8.0,
+      10.0
+    ],
+    "period_grid": [],
+    "completeness_map": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "details": [],
+    "stellar_radius": 1.0
+  }
+}
