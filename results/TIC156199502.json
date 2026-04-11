@@ -1,0 +1,46 @@
+{
+  "tic_id": "156199502",
+  "analyzed_at": "2026-04-11T20:42:49.990855",
+  "contributor": "marc",
+  "exonit_version": "0.1.0",
+  "n_candidates": 1,
+  "candidates": [
+    {
+      "candidate_num": 1,
+      "period_days": 48.9922,
+      "t0": 3328.4242,
+      "duration_days": 0.9798,
+      "depth_ppm": 1347.0,
+      "snr": 7.7,
+      "bls_power": 0.0003,
+      "n_transits_expected": -17
+    }
+  ],
+  "completeness": {
+    "radius_grid": [
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      3.0,
+      4.0,
+      6.0,
+      8.0,
+      10.0
+    ],
+    "period_grid": [],
+    "completeness_map": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "details": [],
+    "stellar_radius": 1.0
+  }
+}
