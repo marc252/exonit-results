@@ -1,0 +1,20 @@
+{
+  "tic_id": "146589986",
+  "analyzed_at": "2026-04-11T18:33:58.936789",
+  "contributor": "marc",
+  "exonit_version": "0.1.0",
+  "n_candidates": 1,
+  "candidates": [
+    {
+      "candidate_num": 1,
+      "period_days": 2.8323,
+      "t0": 2283.7074,
+      "duration_days": 0.1699,
+      "depth_ppm": 1561.5,
+      "snr": 13.2,
+      "bls_power": 0.0114,
+      "n_transits_expected": 641
+    }
+  ],
+  "completeness": null
+}
