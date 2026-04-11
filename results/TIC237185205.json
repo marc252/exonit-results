@@ -1,0 +1,30 @@
+{
+  "tic_id": "237185205",
+  "analyzed_at": "2026-04-11T18:39:57.925743",
+  "contributor": "marc",
+  "exonit_version": "0.1.0",
+  "n_candidates": 2,
+  "candidates": [
+    {
+      "candidate_num": 1,
+      "period_days": 7.8664,
+      "t0": 2394.1569,
+      "duration_days": 0.1573,
+      "depth_ppm": 710.2,
+      "snr": 15.3,
+      "bls_power": 0.001,
+      "n_transits_expected": 145
+    },
+    {
+      "candidate_num": 2,
+      "period_days": 25.5762,
+      "t0": 2406.8972,
+      "duration_days": 2.3019,
+      "depth_ppm": 182.7,
+      "snr": 7.3,
+      "bls_power": 0.0003,
+      "n_transits_expected": 44
+    }
+  ],
+  "completeness": null
+}
