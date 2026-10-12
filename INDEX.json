@@ -1,0 +1,79 @@
+{
+  "finalist_rows": 247,
+  "generated_at": "2026-10-12T17:17:22Z",
+  "internal_sha": "fbdd17169bf54049582222fb7e9aab9a97d7fc03",
+  "lots": 221,
+  "sectors": {
+    "s0001": {
+      "finalists": 12,
+      "lots": 52,
+      "strong": 392
+    },
+    "s0002": {
+      "finalists": 0,
+      "lots": 20,
+      "strong": 0
+    },
+    "s0003": {
+      "finalists": 0,
+      "lots": 3,
+      "strong": 0
+    },
+    "s0005": {
+      "finalists": 0,
+      "lots": 5,
+      "strong": 0
+    },
+    "s0006": {
+      "finalists": 0,
+      "lots": 15,
+      "strong": 0
+    },
+    "s0007": {
+      "finalists": 0,
+      "lots": 8,
+      "strong": 0
+    },
+    "s0014": {
+      "finalists": 11,
+      "lots": 47,
+      "strong": 20
+    },
+    "s0015": {
+      "finalists": 0,
+      "lots": 16,
+      "strong": 2
+    },
+    "s0017": {
+      "finalists": 0,
+      "lots": 18,
+      "strong": 8
+    },
+    "s0018": {
+      "finalists": 0,
+      "lots": 12,
+      "strong": 0
+    },
+    "s0023": {
+      "finalists": 224,
+      "lots": 17,
+      "strong": 502
+    },
+    "s0026": {
+      "finalists": 0,
+      "lots": 8,
+      "strong": 0
+    }
+  },
+  "skipped_legacy_scorecards": [
+    "discovery_s0001_lot1_2026-05-26.json",
+    "discovery_s0001_lot2_2026-05-27.json",
+    "discovery_s0001_lot3_2026-05-27.json",
+    "discovery_s0001_lot4_2026-05-28.json",
+    "discovery_s0001_lotCNNV2BACKFILL_2026-06-30.json",
+    "discovery_s0001_lotX_2026-05-28.json",
+    "discovery_s0001_lotX_2026-05-29.json",
+    "discovery_s0001_lotX_2026-05-30.json"
+  ],
+  "strong_rows": 924
+}

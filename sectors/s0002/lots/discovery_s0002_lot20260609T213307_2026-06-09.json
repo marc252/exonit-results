@@ -1,0 +1,69 @@
+{
+  "run_id": "discovery_s0002_lot20260609T213307_2026-06-09",
+  "sample_size": 0,
+  "stratification": "discovery",
+  "pipeline_version": "discovery-v1",
+  "seed": 0,
+  "tolerance": 0.01,
+  "generated_at": "2026-06-09T22:53:58.069249Z",
+  "metrics": {
+    "recall_global": 1.0,
+    "n_kp_cp_processed": 2,
+    "n_detected": 2,
+    "recall_by_depth": {
+      "<500": 0.0,
+      "500-1000": 0.0,
+      "1000-5000": 1.0,
+      ">5000": 1.0
+    },
+    "recall_by_period": {
+      "<3d": 1.0,
+      "3-10d": 1.0,
+      "10-30d": 0.0,
+      ">30d": 0.0
+    },
+    "recall_by_sectors": {
+      "1-2": 0.0,
+      "3-6": 1.0,
+      "7-15": 0.0,
+      ">15": 0.0
+    },
+    "period_precision": {
+      "median_rel_err": 0.000141584393192734,
+      "sigma": 3.7332799154030604e-05,
+      "n": 2
+    },
+    "depth_precision": {
+      "median_rel_err": 0.6829405065251983,
+      "sigma": 0.11038368449192021,
+      "n": 2
+    },
+    "duration_precision": {
+      "median_rel_err": 0.5041442734790562,
+      "sigma": 0.3508548112227189,
+      "n": 2
+    },
+    "fp_rate_cnn": 1.0,
+    "fp_rate_claude": 0.0,
+    "n_fp_processed": 1,
+    "exominer": {
+      "threshold": 0.5,
+      "n_kp_cp_processed": 2,
+      "n_fp_fa_processed": 1,
+      "recall_docker": 0.0,
+      "recall_ffi": 1.0,
+      "recall_combined": 1.0,
+      "specificity_docker": 0.0,
+      "specificity_ffi": 0.0,
+      "kp_cp_em_null": 2,
+      "kp_cp_ffi_null": 0,
+      "fp_fa_em_null": 1,
+      "fp_fa_ffi_null": 0
+    }
+  },
+  "coverage": {
+    "completed": 1.0,
+    "with_candidate": 0.37095,
+    "with_completeness": 1.0
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "run_id": "discovery_s0014_lot20260720T154318_2026-07-20",
+  "sample_size": 50000,
+  "stratification": "discovery",
+  "pipeline_version": "discovery-v1",
+  "seed": 0,
+  "tolerance": 0.01,
+  "generated_at": "2026-07-20T17:10:06.603013Z",
+  "metrics": {
+    "lot": {
+      "recall": null,
+      "measurable": false,
+      "n_kp_cp": 0,
+      "n_detected": 0,
+      "lot_size": 50000,
+      "reason": "the lot contains no KP/CP \u2014 recall is not measurable",
+      "lot_csv": "data/discovery/s0014_lot_20260720T154318.csv"
+    },
+    "cumulative": {
+      "recall": 0.7189349112426036,
+      "measurable": true,
+      "n_kp_cp": 338,
+      "n_detected": 243
+    },
+    "recall_by_depth": {
+      "<500": 0.660377358490566,
+      "500-1000": 0.6031746031746031,
+      "1000-5000": 0.6952380952380952,
+      ">5000": 0.8290598290598291
+    },
+    "recall_by_period": {
+      "<3d": 0.8674698795180723,
+      "3-10d": 0.8057553956834532,
+      "10-30d": 0.5753424657534246,
+      ">30d": 0.3953488372093023
+    },
+    "recall_by_sectors": {
+      "1-2": 0.7073170731707317,
+      "3-6": 0.751937984496124,
+      "7-15": 0.6754966887417219,
+      ">15": 0.8823529411764706
+    },
+    "period_precision": {
+      "median_rel_err": 5.805028987271361e-05,
+      "sigma": 0.0017501418820576437,
+      "n": 243
+    },
+    "depth_precision": {
+      "median_rel_err": 0.5480759461518924,
+      "sigma": 0.9208404219080878,
+      "n": 243
+    },
+    "duration_precision": {
+      "median_rel_err": 0.23336403174317472,
+      "sigma": 0.4746208084322805,
+      "n": 243
+    },
+    "fp_rate_cnn": 0.8730964467005076,
+    "fp_rate_claude": 0.6192893401015228,
+    "n_fp_processed": 197,
+    "exominer": {
+      "threshold": 0.5,
+      "n_kp_cp_processed": 338,
+      "n_fp_fa_processed": 234,
+      "recall_docker": 0.09467455621301775,
+      "recall_ffi": 0.863905325443787,
+      "recall_combined": 0.8668639053254438,
+      "specificity_docker": 0.33760683760683763,
+      "specificity_ffi": 0.23504273504273504,
+      "kp_cp_em_null": 159,
+      "kp_cp_ffi_null": 12,
+      "fp_fa_em_null": 154,
+      "fp_fa_ffi_null": 42
+    }
+  },
+  "coverage": {
+    "completed": 0.999988023978656,
+    "with_candidate": 0.7196854741950007,
+    "with_completeness": 0.9990833908108432
+  }
+}

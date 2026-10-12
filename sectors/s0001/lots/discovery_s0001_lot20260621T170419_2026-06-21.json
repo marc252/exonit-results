@@ -1,0 +1,69 @@
+{
+  "run_id": "discovery_s0001_lot20260621T170419_2026-06-21",
+  "sample_size": 0,
+  "stratification": "discovery",
+  "pipeline_version": "discovery-v1",
+  "seed": 0,
+  "tolerance": 0.01,
+  "generated_at": "2026-06-22T00:13:42.099396Z",
+  "metrics": {
+    "recall_global": 0.7362637362637363,
+    "n_kp_cp_processed": 182,
+    "n_detected": 134,
+    "recall_by_depth": {
+      "<500": 0.8,
+      "500-1000": 0.6285714285714286,
+      "1000-5000": 0.68,
+      ">5000": 0.8064516129032258
+    },
+    "recall_by_period": {
+      "<3d": 0.9487179487179487,
+      "3-10d": 0.8695652173913043,
+      "10-30d": 0.5909090909090909,
+      ">30d": 0.36666666666666664
+    },
+    "recall_by_sectors": {
+      "1-2": 0.7,
+      "3-6": 0.7922077922077922,
+      "7-15": 0.6621621621621622,
+      ">15": 0.9090909090909091
+    },
+    "period_precision": {
+      "median_rel_err": 2.994240167622335e-05,
+      "sigma": 0.0017573406688221782,
+      "n": 134
+    },
+    "depth_precision": {
+      "median_rel_err": 0.5172657620349799,
+      "sigma": 0.2825614970287296,
+      "n": 134
+    },
+    "duration_precision": {
+      "median_rel_err": 0.24230331424252588,
+      "sigma": 0.37108882811643357,
+      "n": 134
+    },
+    "fp_rate_cnn": 0.8596491228070176,
+    "fp_rate_claude": 0.47368421052631576,
+    "n_fp_processed": 57,
+    "exominer": {
+      "threshold": 0.5,
+      "n_kp_cp_processed": 182,
+      "n_fp_fa_processed": 65,
+      "recall_docker": 0.6923076923076923,
+      "recall_ffi": 0.8901098901098901,
+      "recall_combined": 0.9230769230769231,
+      "specificity_docker": 0.7692307692307693,
+      "specificity_ffi": 0.3230769230769231,
+      "kp_cp_em_null": 11,
+      "kp_cp_ffi_null": 5,
+      "fp_fa_em_null": 8,
+      "fp_fa_ffi_null": 8
+    }
+  },
+  "coverage": {
+    "completed": 0.9999989985839978,
+    "with_candidate": 0.9271775290260428,
+    "with_completeness": 0.9967188604687027
+  }
+}
