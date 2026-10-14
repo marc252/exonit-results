@@ -4,7 +4,7 @@
 > astrophysicist. These are raw pipeline outputs. **Do NOT submit anything here to ExoFOP** and do not make
 > scientific claims based on it. See [CONFIDENCE_LEDGER.md](CONFIDENCE_LEDGER.md).
 
-Generated 2026-10-12T17:17:22Z from internal commit `fbdd17169bf54049582222fb7e9aab9a97d7fc03` by `scripts/release/build_public_results.py`
+Generated 2026-10-14T14:51:28Z from internal commit `b926fc7b82b2bef69de304c9762a50acb8aa8e13` by `scripts/release/build_public_results.py`
 of [exonit-public](https://github.com/marc252/exonit-public). Everything here is generated; do not edit by hand.
 
 ## What is here
@@ -12,13 +12,42 @@ of [exonit-public](https://github.com/marc252/exonit-public). Everything here is
 - `sectors/s<NNNN>/lots/<run_id>.json` — the lot scorecard (recall vs the TOI catalog by depth/period/sectors,
   period/depth/duration precision, false-positive rates per stage). `<run_id>_dossier.md` — the vetting dossier
   (strong candidates after the systematic-family veto, finalists, shared-signal cross-check, cross-sector queue).
-- `candidates/strong_candidates.csv` — every strong-candidate row from every dossier, with its verdict.
+- `candidates/strong_candidates.csv` — every strong-candidate row from every dossier, with its `pipeline_label`
+  and the catalog cross-match columns.
+- `candidates/new_candidates.csv` — only the rows found in none of the catalogs;
+  `candidates/crossmatch_sources.json` — exactly which catalogs, versions and retrieval time were used.
 - `benchmarks/` — the latest blind TOI benchmark (recall of KP/CP/PC hosts processed with TGLC light curves).
 - `INDEX.json` — machine-readable totals.
 
-## How to read a verdict
-`planet_candidate` means the gradient-boosted verdict classifier scored above its threshold on the pipeline's
-own features; it is **not** a disposition. Compare with ExoFOP before believing anything.
+## How to read `pipeline_label`
+The label is a raw pipeline output. **None of these labels is a disposition, a validation or a confirmation:** no
+follow-up observations (spectroscopy, high-resolution imaging, ground-based photometry) were used for any of them.
+
+| pipeline_label | what it means |
+|---|---|
+| `tri_low_fpp` | TRICERATOPS false-positive probability FPP < 0.015 and nearby-FPP < 0.001. These are the thresholds of Giacalone et al. (2021) for statistical validation, but here they are computed from the TESS light curve alone, **without the follow-up constraints that validation requires**, so this is not a validation. |
+| `tri_mid_fpp` | TRICERATOPS FPP below 0.5 but not meeting the `tri_low_fpp` thresholds. |
+| `tri_high_fpp` | TRICERATOPS FPP >= 0.5: likely a false positive. |
+| `tri_failed` | The TRICERATOPS run failed (no FPP). |
+| `unscored` | No TRICERATOPS result was available when the dossier was written. |
+| `clf_planet_candidate` | The gradient-boosted verdict classifier scored above its threshold on the pipeline's own features. A classifier score is not a disposition. |
+
+Older dossiers wrote the first three TRICERATOPS labels with different words; the published files use the names
+above so that nobody reads them as a validation.
+
+## Known objects and aliases
+Every strong row is cross-matched (by TIC, or by sky position for the Gaia tables) against: the ExoFOP TOI and
+CTOI lists, the NASA Exoplanet Archive confirmed planets, the TESS EB catalog (Prsa et al. 2022), the TESS Ten
+Thousand EB catalog (Kostov et al. 2025) and the Gaia DR3 eclipsing-binary and non-single-star orbital tables.
+
+- `known_status` (first match wins): `known_planet` (confirmed in the archive or TFOPWG CP/KP) > `known_fp`
+  (TFOPWG FP/FA) > `toi_candidate` (a TOI: TFOPWG PC/APC or not yet dispositioned) > `ctoi` > `known_eb` (any EB or
+  spectroscopic-binary catalog) > `new` (in none of them).
+- `known_ids`, `catalog_period_days`: the catalog identifiers and the catalog period that was compared.
+- `period_relation` = our period / catalog period: `same`, `2x`, `1/2x`, `3x`, `1/3x`, ... within 1 %, else `other`
+  (empty when no catalog period exists). The same object is often found at a multiple or fraction of its catalog
+  period: a `1/2x`, `2x` or `3x` row is the same signal as the catalog entry, not a new one.
+- "New" means "not in these catalogs". It does not mean undiscovered, vetted or real.
 
 ## Totals
 | sector | lots | strong | finalists |
@@ -35,3 +64,15 @@ own features; it is **not** a disposition. Compare with ExoFOP before believing 
 | s0018 | 12 | 0 | 0 |
 | s0023 | 17 | 502 | 224 |
 | s0026 | 8 | 0 | 0 |
+
+## Strong rows by known status
+| known_status | strong rows |
+|---|---|
+| known_planet | 36 |
+| known_fp | 24 |
+| toi_candidate | 69 |
+| ctoi | 6 |
+| known_eb | 35 |
+| new | 754 |
+
+New (in none of the catalogs): 754 rows, 754 distinct TICs (`candidates/new_candidates.csv`).

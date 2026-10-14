@@ -1,0 +1,104 @@
+{
+  "catalogs": {
+    "exofop_ctoi": {
+      "rows": 5138,
+      "source": "https://exofop.ipac.caltech.edu/tess/download_ctoi.php?sort=ctoi&output=csv",
+      "status": "ok",
+      "tics_matched": 28
+    },
+    "exofop_toi": {
+      "rows": 8151,
+      "source": "https://exofop.ipac.caltech.edu/tess/download_toi.php?sort=toi&output=csv",
+      "status": "ok",
+      "tics_matched": 127
+    },
+    "gaia_dr3_eb_and_nss": {
+      "epoch": "TIC J2000 position propagated to 2016.0 with TIC proper motion",
+      "radius_arcsec": 2.0,
+      "status": "ok",
+      "tables": {
+        "I/357/tboeb": {
+          "xmatch_rows": 0
+        },
+        "I/357/tboes": {
+          "xmatch_rows": 0
+        },
+        "I/357/tbosb1": {
+          "xmatch_rows": 42
+        },
+        "I/357/tbosb1c": {
+          "xmatch_rows": 0
+        },
+        "I/357/tbosb2": {
+          "xmatch_rows": 2
+        },
+        "I/357/tbosb2c": {
+          "xmatch_rows": 0
+        },
+        "I/358/veb": {
+          "xmatch_rows": 0
+        }
+      },
+      "tic82_vizier": "IV/39/tic82",
+      "tics_matched_eb": 0,
+      "tics_matched_sb": 44,
+      "tics_with_position": 924
+    },
+    "nea_pscomppars": {
+      "rows": 6445,
+      "source": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Ctic_id%2Cpl_orbper+from+pscomppars&format=csv",
+      "status": "ok",
+      "table": "pscomppars",
+      "tics_matched": 34
+    },
+    "tess_eb_10k_kostov2025": {
+      "note": "The Ten Thousand catalog is table3 (new eclipsing binaries) plus table4 (known EBs, compared with literature periods); the TESS period is Per (table3) / Per-TESS (table4).",
+      "status": "ok",
+      "tables": {
+        "J/ApJS/279/50/table3": {
+          "rows": 7936,
+          "tics_matched": 0
+        },
+        "J/ApJS/279/50/table4": {
+          "rows": 2065,
+          "tics_matched": 0
+        }
+      },
+      "tics_matched": 0,
+      "vizier": "J/ApJS/279/50"
+    },
+    "tess_eb_prsa2022": {
+      "rows": 4584,
+      "status": "ok",
+      "tics_matched": 27,
+      "vizier": "J/ApJS/258/16/tess-ebs"
+    }
+  },
+  "radius_arcsec": 2.0,
+  "raw_files_retrieved_utc": {
+    "ctoi.csv": "2026-10-14T14:43:32Z",
+    "kostov2025_tess10k_table3.csv": "2026-10-14T14:45:24Z",
+    "kostov2025_tess10k_table4.csv": "2026-10-14T14:51:14Z",
+    "nea_pscomppars.csv": "2026-10-14T14:45:24Z",
+    "prsa2022_tess_ebs.csv": "2026-10-14T14:45:24Z",
+    "tic82_strong.csv": "2026-10-14T14:45:33Z",
+    "toi.csv": "2026-10-14T14:43:29Z",
+    "xmatch_I_357_tboeb.csv": "2026-10-14T14:45:40Z",
+    "xmatch_I_357_tboes.csv": "2026-10-14T14:45:40Z",
+    "xmatch_I_357_tbosb1.csv": "2026-10-14T14:45:40Z",
+    "xmatch_I_357_tbosb1c.csv": "2026-10-14T14:45:41Z",
+    "xmatch_I_357_tbosb2.csv": "2026-10-14T14:45:41Z",
+    "xmatch_I_357_tbosb2c.csv": "2026-10-14T14:45:42Z",
+    "xmatch_I_358_veb.csv": "2026-10-14T14:45:37Z"
+  },
+  "retrieved_utc": "2026-10-14T14:51:13Z",
+  "status_counts": {
+    "ctoi": 6,
+    "known_eb": 35,
+    "known_fp": 24,
+    "known_planet": 36,
+    "new": 754,
+    "toi_candidate": 69
+  },
+  "tics": 924
+}

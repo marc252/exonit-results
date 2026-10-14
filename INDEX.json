@@ -1,8 +1,17 @@
 {
   "finalist_rows": 247,
-  "generated_at": "2026-10-12T17:17:22Z",
-  "internal_sha": "fbdd17169bf54049582222fb7e9aab9a97d7fc03",
+  "generated_at": "2026-10-14T14:51:28Z",
+  "internal_sha": "b926fc7b82b2bef69de304c9762a50acb8aa8e13",
+  "known_status_counts": {
+    "ctoi": 6,
+    "known_eb": 35,
+    "known_fp": 24,
+    "known_planet": 36,
+    "new": 754,
+    "toi_candidate": 69
+  },
   "lots": 221,
+  "new_candidate_tics": 754,
   "sectors": {
     "s0001": {
       "finalists": 12,
