@@ -1,3 +1,7 @@
+> **Notice (2026-10-17): false-positive probabilities withdrawn.** The false-positive probability (FPP) values that used to be listed here, and the `tri_*` labels derived from them, were withdrawn because the model that produced them had known defects; a corrected model is in progress, and the values will be recomputed and republished. The candidate classifier score (`clf_planet_candidate`) used FPP as one of its inputs, so rankings may shift after the recompute. Until then, please do not use these tables to rank or dismiss candidates.
+>
+> *2026-10-17 - Withdrew all FPP/NFPP values and the FPP-derived tier labels (shown as `fpp_withheld`); a corrected model is in progress and every value will be recomputed.*
+
 # ExoNit — public results
 
 > **Experimental — personal research project (Confidence Level L0).** Results are not validated by an
@@ -5,7 +9,7 @@
 > scientific claims based on it. See [CONFIDENCE_LEDGER.md](CONFIDENCE_LEDGER.md).
 
 Generated 2026-10-14T14:51:28Z from internal commit `b926fc7b82b2bef69de304c9762a50acb8aa8e13` by `scripts/release/build_public_results.py`
-of [exonit-public](https://github.com/marc252/exonit-public). Everything here is generated; do not edit by hand.
+of [exonit-public](https://github.com/marc252/exonit-public). Everything here is generated (FPP values withheld afterwards by a post-processing step); do not edit by hand.
 
 ## What is here
 - `sectors/s<NNNN>/summary.md` — one row per processed lot (TICs completed, failed, strong candidates, finalists).
@@ -25,15 +29,12 @@ follow-up observations (spectroscopy, high-resolution imaging, ground-based phot
 
 | pipeline_label | what it means |
 |---|---|
-| `tri_low_fpp` | TRICERATOPS false-positive probability FPP < 0.015 and nearby-FPP < 0.001. These are the thresholds of Giacalone et al. (2021) for statistical validation, but here they are computed from the TESS light curve alone, **without the follow-up constraints that validation requires**, so this is not a validation. |
-| `tri_mid_fpp` | TRICERATOPS FPP below 0.5 but not meeting the `tri_low_fpp` thresholds. |
-| `tri_high_fpp` | TRICERATOPS FPP >= 0.5: likely a false positive. |
+| `fpp_withheld` | Replaces the former FPP-derived tier labels. FPP (false-positive probability) is withheld, see the notice at the top: the labels were derived from FPP values produced by a model with known defects, and will be republished after a recompute. |
 | `tri_failed` | The TRICERATOPS run failed (no FPP). |
 | `unscored` | No TRICERATOPS result was available when the dossier was written. |
 | `clf_planet_candidate` | The gradient-boosted verdict classifier scored above its threshold on the pipeline's own features. A classifier score is not a disposition. |
 
-Older dossiers wrote the first three TRICERATOPS labels with different words; the published files use the names
-above so that nobody reads them as a validation.
+Older dossiers used different words for the FPP-derived labels; all of them now read `fpp_withheld`.
 
 ## Known objects and aliases
 Every strong row is cross-matched (by TIC, or by sky position for the Gaia tables) against: the ExoFOP TOI and

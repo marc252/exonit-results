@@ -8,16 +8,16 @@ Percentages below are over ALL TOIs in each group (processed and not) — this i
 
 ## Per disposition
 
-| Disposition | n | processed | L1 % | L2 % | L3 % | L2 fpp NULL | miss reasons |
-|---|---|---|---|---|---|---|---|
-| KP | 290 | 290 | 74.5% | 12.4% | 11.4% | 0 | no_cand=19, unresolvable=8, wrong_period=47 |
-| CP | 307 | 307 | 56.0% | 27.4% | 26.4% | 0 | no_cand=14, unresolvable=38, wrong_period=83 |
-| PC | 2884 | 2883 | 64.9% | 11.7% | 7.8% | 0 | no_cand=200, no_star=1, unresolvable=192, wrong_period=620 |
-| APC | 292 | 292 | 73.6% | 18.2% | 11.6% | 0 | no_cand=12, unresolvable=20, wrong_period=45 |
-| FP | 764 | 764 | 63.2% | 12.6% | 7.2% | 0 | no_cand=48, unresolvable=28, wrong_period=205 |
-| FA | 32 | 32 | 6.2% | 0.0% | 0.0% | 0 | no_cand=6, unresolvable=8, wrong_period=16 |
-| none | 9 | 9 | 55.6% | 0.0% | 0.0% | 0 | no_cand=1, unresolvable=2, wrong_period=1 |
-| **KP+CP** | 597 | 597 | 65.0% | 20.1% | 19.1% | 0 | no_cand=33, unresolvable=46, wrong_period=130 |
+| Disposition | n | processed | L1 % | L2 % | L3 % | miss reasons |
+|---|---|---|---|---|---|---|
+| KP | 290 | 290 | 74.5% | 12.4% | 11.4% | no_cand=19, unresolvable=8, wrong_period=47 |
+| CP | 307 | 307 | 56.0% | 27.4% | 26.4% | no_cand=14, unresolvable=38, wrong_period=83 |
+| PC | 2884 | 2883 | 64.9% | 11.7% | 7.8% | no_cand=200, no_star=1, unresolvable=192, wrong_period=620 |
+| APC | 292 | 292 | 73.6% | 18.2% | 11.6% | no_cand=12, unresolvable=20, wrong_period=45 |
+| FP | 764 | 764 | 63.2% | 12.6% | 7.2% | no_cand=48, unresolvable=28, wrong_period=205 |
+| FA | 32 | 32 | 6.2% | 0.0% | 0.0% | no_cand=6, unresolvable=8, wrong_period=16 |
+| none | 9 | 9 | 55.6% | 0.0% | 0.0% | no_cand=1, unresolvable=2, wrong_period=1 |
+| **KP+CP** | 597 | 597 | 65.0% | 20.1% | 19.1% | no_cand=33, unresolvable=46, wrong_period=130 |
 
 ## KP+CP by period bin
 
